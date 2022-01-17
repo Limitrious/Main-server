@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1641708696817
+  login: 1641704448161
+money: '0'
+last-account-name: .A.f.k.Bot4DA
+logoutlocation:
+  world: bf191a04-6122-454c-a47f-61ad20ee550b
+  world-name: world
+  x: -664.538151024533
+  y: 112.45
+  z: -460.5483664433515
+  yaw: 7.284274101257324
+  pitch: -90.0

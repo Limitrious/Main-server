@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.7.109
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1641785386641
+  login: 1641785334151
+money: '50'
+last-account-name: khanhshoang11
+lastlocation:
+  world: bf191a04-6122-454c-a47f-61ad20ee550b
+  world-name: world
+  x: -127.30000001192093
+  y: 133.0
+  z: -5.30778183456828
+  yaw: -101.22808837890625
+  pitch: -30.000009536743164
+logoutlocation:
+  world: bf191a04-6122-454c-a47f-61ad20ee550b
+  world-name: world
+  x: -281.2857396290804
+  y: 181.26456001305579
+  z: -122.41808474307099
+  yaw: -61.264190673828125
+  pitch: 9.000005722045898

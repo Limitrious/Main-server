@@ -1,0 +1,5 @@
+MaxMailboxSize: 6
+MailExpiration: 14
+OnPlayerJoin:
+  ShowNewMessages: true
+  DelayInSeconds: 3

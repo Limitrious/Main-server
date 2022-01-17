@@ -1,0 +1,1520 @@
+[08:36:38] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[08:36:39] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit, unlock all recipes v2.0.3.zip, VanillaTweaks_c699063.zip, hammersdatapack-e3460.zip
+[08:36:39] [Worker-Main-2/INFO]: Loaded 7 recipes
+[08:36:41] [ServerMain/WARN]: Failed to parse resource pack prompt 'You need this pack to have proper texture.'
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 1 path $
+	at com.google.gson.internal.Streams.parse(Streams.java:60) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:65) ~[gson-2.8.8.jar:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:503) ~[?:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:527) ~[?:?]
+	at net.minecraft.network.chat.Component$Serializer.fromJson(Component.java:432) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.parseResourcePackPrompt(DedicatedServer.java:847) ~[paper-1.18.1.jar:git-Paper-155]
+	at net.minecraft.server.dedicated.DedicatedServer.<init>(DedicatedServer.java:99) ~[paper-1.18.1.jar:git-Paper-155]
+	at net.minecraft.server.Main.lambda$main$0(Main.java:243) ~[paper-1.18.1.jar:git-Paper-155]
+	at net.minecraft.server.MinecraftServer.spin(MinecraftServer.java:327) ~[paper-1.18.1.jar:git-Paper-155]
+	at net.minecraft.server.Main.main(Main.java:242) ~[paper-1.18.1.jar:git-Paper-155]
+	at org.bukkit.craftbukkit.Main.main(Main.java:293) ~[paper-1.18.1.jar:git-Paper-155]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1562) ~[gson-2.8.8.jar:?]
+	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1403) ~[gson-2.8.8.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:592) ~[gson-2.8.8.jar:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:424) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.Streams.parse(Streams.java:46) ~[gson-2.8.8.jar:?]
+	... 12 more
+[08:36:41] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[08:36:41] [Server thread/INFO]: Loading properties
+[08:36:41] [Server thread/INFO]: This server is running Paper version git-Paper-155 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: 99cf01f)
+[08:36:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:36:42] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:36:42] [Server thread/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
+[08:36:42] [Server thread/INFO]: Default game type: SURVIVAL
+[08:36:42] [Server thread/INFO]: Generating keypair
+[08:36:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:36:42] [Server thread/INFO]: Using default channel type
+[08:36:42] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[08:36:42] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[08:36:44] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_18_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[08:36:48] [Server thread/WARN]: Legacy plugin SimpleMail v0.3.8 does not specify an api-version.
+[08:36:48] [Server thread/WARN]: Legacy plugin UndeadHorses v5.0 does not specify an api-version.
+[08:36:48] [Server thread/WARN]: Legacy plugin ItemStackReloaded v1.0 does not specify an api-version.
+[08:36:48] [Server thread/WARN]: Legacy plugin UnCrafter v1.8.5b does not specify an api-version.
+[08:36:48] [Server thread/WARN]: Legacy plugin MinecartFix v1.1.0 does not specify an api-version.
+[08:36:48] [Server thread/WARN]: Legacy plugin MobLeash v1.0 does not specify an api-version.
+[08:36:49] [Server thread/INFO]: [Lasso] Loading Lasso v1.5
+[08:36:49] [Server thread/INFO]: [Lasso] WorldGuard not installed
+[08:36:49] [Server thread/INFO]: [HealthBar] Loading HealthBar v1.7
+[08:36:49] [Server thread/INFO]: [CustomOres] Loading CustomOres v2.0
+[08:36:49] [Server thread/INFO]: [GFly] Loading GFly v[2.3.0.0]
+[08:36:49] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.1
+[08:36:49] [Server thread/INFO]: [SimpleMail] Loading SimpleMail v0.3.8
+[08:36:49] [Server thread/INFO]: [UndeadHorses] Loading UndeadHorses v5.0
+[08:36:49] [Server thread/INFO]: [UAntiClean] Loading UAntiClean v1.1.0-SNAPSHOT
+[08:36:49] [Server thread/INFO]: [ItemStackReloaded] Loading ItemStackReloaded v1.0
+[08:36:49] [Server thread/INFO]: [UnCrafter] Loading UnCrafter v1.8.5b
+[08:36:49] [Server thread/INFO]: [SpigotPing] Loading SpigotPing v2.6
+[08:36:49] [Server thread/INFO]: [FarmProtection] Loading FarmProtection v1.0
+[08:36:49] [Server thread/INFO]: [UberEnchant] Loading UberEnchant v8.9.4
+[08:36:49] [Server thread/INFO]: [Minepacks] Loading Minepacks v2.4.3-Release
+[08:36:49] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
+[08:36:49] [Server thread/INFO]: [Sudo] Loading Sudo v1.7
+[08:36:49] [Server thread/INFO]: [ImageOnMap] Loading ImageOnMap v4.2.1
+[08:36:49] [Server thread/INFO]: [BetterMobs] Loading BetterMobs v1.5.2
+[08:36:49] [Server thread/INFO]: [MoreOres] Loading MoreOres v1.12.4
+[08:36:49] [Server thread/INFO]: [Not-Too-Expensive] Loading Not-Too-Expensive v1.1
+[08:36:49] [Server thread/INFO]: [MinecartFix] Loading MinecartFix v1.1.0
+[08:36:49] [Server thread/INFO]: [FloatingItems] Loading FloatingItems v1.0
+[08:36:49] [Server thread/INFO]: [GSit] Loading GSit v1.0.5
+[08:36:49] [Server thread/INFO]: [SurvivalWorldEdit] Loading SurvivalWorldEdit v1.0.3
+[08:36:49] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.1.1
+[08:36:49] [Server thread/INFO]: [ViaVersion] ViaVersion 4.1.1 is now loaded, injecting!
+[08:36:49] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[08:36:49] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[08:36:49] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[08:36:49] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[08:36:49] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[08:36:49] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[08:36:49] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[08:36:49] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[08:36:49] [Server thread/INFO]: [EnhancedEnchants] Loading EnhancedEnchants v1.4
+[08:36:49] [Server thread/INFO]: [MobLeash] Loading MobLeash v1.0
+[08:36:49] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.1.1
+[08:36:49] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[08:36:49] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[08:36:49] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[08:36:50] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[08:36:50] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.12 -> 1.11 mappings...
+[08:36:50] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[08:36:50] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[08:36:50] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[08:36:50] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
+[08:36:50] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
+[08:36:50] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
+[08:36:50] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
+[08:36:50] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.18 -> 1.17 mappings...
+[08:36:50] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.1
+[08:36:50] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.86
+[08:36:51] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.7.0
+[08:36:51] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.18.1) has not yet been tested! Proceed with caution.
+[08:36:52] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.1.10
+[08:36:52] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[08:36:52] [Server thread/INFO]: [PaperMoney] Loading PaperMoney v1.18.1.a.1
+[08:36:52] [Server thread/INFO]: [dynmap] Loading dynmap v3.3-beta-4-617
+[08:36:52] [Server thread/INFO]: [dynmap] version=git-Paper-155 (MC: 1.18.1)
+[08:36:52] [Server thread/INFO]: [dynmap] Mod Support API available
+[08:36:52] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.8+6008-1246d61
+[08:36:53] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6d9d98f2]
+[08:36:53] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.2
+[08:36:53] [Server thread/INFO]: [CleanMOTD] Loading CleanMOTD v0.2.7
+[08:36:53] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[08:36:53] [Server thread/INFO]: [MobsToEggs] Loading MobsToEggs v1.5.5_5
+[08:36:53] [Server thread/INFO]: [Multiverse-Inventories] Loading Multiverse-Inventories v4.2.2-b500
+[08:36:53] [Server thread/INFO]: [Chunkmaster] Loading Chunkmaster v1.4.1
+[08:36:53] [Server thread/INFO]: [Graves] Loading Graves v4.5
+[08:36:53] [Server thread/INFO]: [SuperVanish] Loading SuperVanish v6.2.6
+[08:36:53] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.19.2
+[08:36:53] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.24.0
+[08:36:53] [Server thread/INFO]: [PlugManX] Loading PlugManX v2.2.7
+[08:36:53] [Server thread/INFO]: true
+[08:36:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:36:53] [Server thread/INFO]: [SurvivalWorldEdit] Enabling SurvivalWorldEdit v1.0.3
+[08:36:53] [Server thread/INFO]:  ______        _______
+[08:36:53] [Server thread/INFO]: / ___\ \      / | ____|           Survival World Edit
+[08:36:53] [Server thread/INFO]: \___ \\ \ /\ / /|  _|             Created with love by
+[08:36:53] [Server thread/INFO]:  ___) |\ V  V / | |___            Whirss (jachi.org)
+[08:36:53] [Server thread/INFO]: |____/  \_/\_/  |_____|
+[08:36:53] [Server thread/INFO]: 
+[08:36:53] [Server thread/INFO]: [SurvivalWorldEdit] The language English has been loaded successfully.
+[08:36:53] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.1
+[08:36:53] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.86
+[08:36:54] [Server thread/INFO]:         __    
+[08:36:54] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.86
+[08:36:54] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[08:36:54] [Server thread/INFO]: 
+[08:36:54] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[08:36:54] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[08:36:55] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[08:36:55] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[08:36:55] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2541ms)
+[08:36:55] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.7.0
+[08:36:55] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[08:36:56] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[08:36:56] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.2 which is not a depend, softdepend or loadbefore of this plugin.
+[08:36:56] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[08:36:56] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[08:36:56] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[08:36:56] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[08:36:56] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.8+6008-1246d61
+[08:36:56] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[08:36:56] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[08:36:56] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R1.PaperweightAdapter as the Bukkit adapter
+[08:36:57] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.2.7
+[08:36:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:36:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:36:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:36:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:36:57] [Server thread/INFO]: Preparing level "world"
+[08:36:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[08:36:59] [Server thread/INFO]: Time elapsed: 294 ms
+[08:36:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[08:36:59] [Server thread/INFO]: Time elapsed: 136 ms
+[08:36:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[08:36:59] [Server thread/INFO]: Time elapsed: 94 ms
+[08:36:59] [Server thread/INFO]: [Lasso] Enabling Lasso v1.5
+[08:36:59] [Server thread/INFO]: [Lasso] Using NMS version v1_18_R1
+[08:36:59] [Server thread/ERROR]: [Lasso] Error! This plugin only supports Spigot versions 1.17.1+!
+[08:36:59] [Server thread/ERROR]: [Lasso] Plugin will be disabled!
+[08:36:59] [Server thread/INFO]: [Lasso] Disabling Lasso v1.5
+[08:36:59] [Server thread/INFO]: [HealthBar] Enabling HealthBar v1.7
+[08:36:59] [Server thread/INFO]: [CustomOres] Enabling CustomOres v2.0
+[08:37:00] [Server thread/INFO]: Custom Ores Loaded Successfully
+[08:37:00] [Server thread/INFO]: [GFly] Enabling GFly v[2.3.0.0]
+[08:37:00] [Server thread/INFO]: [GFly] The Plugin was successfully enabled.
+[08:37:00] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.1
+[08:37:00] [Server thread/WARN]: [PlaceholderAPI] Loaded class com.viaversion.viaversion.api.type.Type from ViaVersion v4.1.1 which is not a depend, softdepend or loadbefore of this plugin.
+[08:37:00] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[08:37:00] [Server thread/INFO]: [SimpleMail] Enabling SimpleMail v0.3.8*
+[08:37:00] [Server thread/INFO]: [SimpleMail] 0.3.8 enabled.
+[08:37:00] [Server thread/INFO]: [SimpleMail] 0 Expired Messages Cleared
+[08:37:00] [Server thread/INFO]: [UndeadHorses] Enabling UndeadHorses v5.0*
+[08:37:00] [Server thread/INFO]: Added effect SPEED strength 1 for zombie horses!
+[08:37:00] [Server thread/INFO]: Added effect SPEED strength 1 for skeleton horses!
+[08:37:00] [Server thread/INFO]: UndeadHorses[5.0] has been enabled! By extremespancake.
+[08:37:00] [Server thread/INFO]: [UAntiClean] Enabling UAntiClean v1.1.0-SNAPSHOT
+[08:37:00] [Server thread/INFO]: [UAntiClean] Loading Configs...
+[08:37:00] [Server thread/INFO]: [UAntiClean] Loading Events...
+[08:37:00] [Server thread/INFO]: [UAntiClean] -----------------------------------
+[08:37:00] [Server thread/INFO]: [UAntiClean]  
+[08:37:00] [Server thread/INFO]: [UAntiClean] Server: git-Paper-155 (MC: 1.18.1) 
+[08:37:00] [Server thread/INFO]: [UAntiClean] Successfully Plugin Enabled! v1.1.0-SNAPSHOT
+[08:37:00] [Server thread/INFO]: [UAntiClean] Creator: BrunoAvixdub
+[08:37:00] [Server thread/INFO]: [UAntiClean] Thanks for use my plugin :D
+[08:37:00] [Server thread/INFO]: [UAntiClean]  
+[08:37:00] [Server thread/INFO]: [UAntiClean] -----------------------------------
+[08:37:00] [Server thread/INFO]: [ItemStackReloaded] Enabling ItemStackReloaded v1.0*
+[08:37:00] [Server thread/INFO]: [ItemStackReloaded] Registered 5 messages and 2 different Stack sizes.
+[08:37:00] [Server thread/INFO]: [ItemStackReloaded] The default stack size will be 64 items each stack. Permissions for each item are disabled.
+[08:37:00] [Server thread/INFO]: [UnCrafter] Enabling UnCrafter v1.8.5b*
+[08:37:00] [Server thread/INFO]: [UnCrafter] Using Messages.yml
+[08:37:00] [Server thread/ERROR]: [UnCrafter] [STDERR] Using Messages.yml
+[08:37:00] [Server thread/WARN]: Nag author(s): '[stormtrooper28]' of 'UnCrafter' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[08:37:00] [Server thread/INFO]: [UnCrafter] Checking for Updates...
+[08:37:00] [Server thread/INFO]: [UnCrafter] Update Check complete.
+[08:37:00] [Thread-11/INFO]: [UnCrafter] Searching for updates...
+[08:37:00] [Server thread/INFO]: [UnCrafter] No supported proxy service found! Successfully enabled backup proxy!
+[08:37:00] [Server thread/INFO]: [SpigotPing] Enabling SpigotPing v2.6
+[08:37:00] [Thread-11/WARN]: [UnCrafter] Invalid response received.
+[08:37:00] [Thread-11/WARN]: [UnCrafter] The AutoUpdater is experiencing some issues.
+[08:37:00] [Server thread/INFO]: [SpigotPing] TabList is enabled, task added with a delay of 5 second/s.
+[08:37:00] [Server thread/INFO]: [FarmProtection] Enabling FarmProtection v1.0
+[08:37:00] [Server thread/INFO]: [FarmProtection] Enabled FarmProtection v1.0
+[08:37:00] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.9.4
+[08:37:00] [Server thread/WARN]: [UberEnchant] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend, softdepend or loadbefore of this plugin.
+[08:37:00] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.3-Release
+[08:37:00] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
+[08:37:01] [Server thread/INFO]: [Minepacks] [32mConfig file successfully loaded.[0m
+[08:37:01] [Server thread/INFO]: [Minepacks] [32mLanguage file successfully loaded. Language: english  Author: GeorgH93[0m
+[08:37:01] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
+[08:37:01] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
+[08:37:04] [Server thread/INFO]: [Minepacks] [32m Minepacks has been enabled! [33m :) [0m
+[08:37:04] [Server thread/INFO]: [Sudo] Enabling Sudo v1.7
+[08:37:04] [Server thread/INFO]: [Sudo] PAPI found, texts can use placeholders.
+[08:37:04] [Server thread/INFO]: [ImageOnMap] Enabling ImageOnMap v4.2.1
+[08:37:04] [Server thread/INFO]: [ImageOnMap] Loaded 5 player map files.
+[08:37:04] [Server thread/INFO]: [BetterMobs] Enabling BetterMobs v1.5.2
+[08:37:05] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 42 ms to scan 1 urls, producing 3 keys and 13 values
+[08:37:05] [Server thread/INFO]: [BetterMobs] Has been enabled for minecraft 1.18.*
+[08:37:05] [Server thread/INFO]: [BetterMobs] There are currently no modules enabled, enable some in the config.
+[08:37:05] [Server thread/INFO]: [MoreOres] Enabling MoreOres v1.12.4
+[08:37:05] [Server thread/INFO]: More Ores Loaded Successfully! :-D
+[08:37:05] [Server thread/INFO]: [Not-Too-Expensive] Enabling Not-Too-Expensive v1.1
+[08:37:05] [Server thread/INFO]: [MinecartFix] Enabling MinecartFix v1.1.0*
+[08:37:05] [Timer-1/FATAL]: Thread Timer-1 failed main thread check: Chunk getEntities call
+java.lang.Throwable: null
+	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:15) ~[paper-1.18.1.jar:git-Paper-155]
+	at net.minecraft.server.level.ServerLevel.getEntities(ServerLevel.java:2328) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftWorld.getNMSEntities(CraftWorld.java:1017) ~[paper-1.18.1.jar:git-Paper-155]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftRegionAccessor.getEntities(CraftRegionAccessor.java:392) ~[paper-1.18.1.jar:git-Paper-155]
+	at de.xge.mcf.utils.timers.TeleportMinecartsTimer$1.run(TeleportMinecartsTimer.java:22) ~[MinecartFix.jar:?]
+	at java.util.TimerThread.mainLoop(Timer.java:566) ~[?:?]
+	at java.util.TimerThread.run(Timer.java:516) ~[?:?]
+[08:37:05] [Timer-1/WARN]: Exception in thread "Timer-1" java.lang.IllegalStateException: Asynchronous Chunk getEntities call!
+[08:37:05] [Timer-1/WARN]: 	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:16)
+[08:37:05] [Timer-1/WARN]: 	at net.minecraft.server.level.WorldServer.I(WorldServer.java:2328)
+[08:37:05] [Timer-1/WARN]: 	at org.bukkit.craftbukkit.v1_18_R1.CraftWorld.getNMSEntities(CraftWorld.java:1017)
+[08:37:05] [Timer-1/WARN]: 	at org.bukkit.craftbukkit.v1_18_R1.CraftRegionAccessor.getEntities(CraftRegionAccessor.java:392)
+[08:37:05] [Timer-1/WARN]: 	at MinecartFix.jar//de.xge.mcf.utils.timers.TeleportMinecartsTimer$1.run(TeleportMinecartsTimer.java:22)
+[08:37:05] [Timer-1/WARN]: 	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+[08:37:05] [Timer-1/WARN]: 	at java.base/java.util.TimerThread.run(Timer.java:516)
+[08:37:05] [Server thread/INFO]: [MinecartFix] Speed-fix enabled.
+[08:37:05] [Server thread/INFO]: [MinecartFix] Movement-fix enabled.
+[08:37:05] [Server thread/INFO]: [MinecartFix] Enabled.
+[08:37:05] [Server thread/INFO]: [FloatingItems] Enabling FloatingItems v1.0
+[08:37:05] [Server thread/INFO]: [GSit] Enabling GSit v1.0.5
+[08:37:05] [Server thread/INFO]: [GSit] The Plugin was successfully enabled.
+[08:37:05] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.1.1
+[08:37:05] [Server thread/INFO]: [EnhancedEnchants] Enabling EnhancedEnchants v1.4
+[08:37:05] [Server thread/INFO]: [MobLeash] Enabling MobLeash v1.0*
+[08:37:05] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.1.1
+[08:37:05] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.1.10
+[08:37:05] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_18_R1, using MappingSpigotSkinRefresher.
+[08:37:05] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[08:37:08] [Server thread/INFO]: [PaperMoney] Enabling PaperMoney v1.18.1.a.1
+[08:37:08] [Server thread/INFO]: [PaperMoney] PaperMoney from TheTealViper enabling!
+[08:37:08] [Server thread/INFO]: [dynmap] Enabling dynmap v3.3-beta-4-617
+[08:37:08] [Server thread/INFO]: [dynmap] Added 18 custom biome mappings
+[08:37:08] [Server thread/INFO]: [dynmap] Using LuckPerms 5.3.86 for access control
+[08:37:08] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[08:37:09] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
+[08:37:09] [Server thread/INFO]: [dynmap] Loaded 82 perspectives.
+[08:37:09] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[08:37:09] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[08:37:09] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[08:37:09] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:25568
+[08:37:09] [Server thread/INFO]: [dynmap] version 3.3-beta-4-617 is enabled - core version 3.3-beta-4-617
+[08:37:09] [Server thread/INFO]: [dynmap] For support, visit https://reddit.com/r/Dynmap or our Discord at https://discord.gg/s3rd5qn
+[08:37:09] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[08:37:09] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[08:37:09] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[08:37:09] [Server thread/INFO]: [dynmap] Loaded 149201 pending tile renders for world 'world'
+[08:37:09] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[08:37:09] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[08:37:09] [Server thread/INFO]: [dynmap] Enabled
+[08:37:09] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.2
+[08:37:09] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[08:37:09] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[08:37:09] [Server thread/INFO]: [Essentials] Loaded 36926 items from items.json.
+[08:37:09] [Server thread/INFO]: [Essentials] Using locale en_US
+[08:37:09] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[08:37:10] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[08:37:10] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[08:37:10] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[08:37:10] [Server thread/INFO]: [CleanMOTD] Enabling CleanMOTD v0.2.7
+[08:37:10] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[08:37:10] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[08:37:10] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[08:37:10] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: FoodFarm
+[08:37:10] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[08:37:10] [Server thread/INFO]: Preparing start region for dimension minecraft:floatingnetherportal
+[08:37:10] [Server thread/INFO]: Preparing spawn area: 0%
+[08:37:10] [Server thread/INFO]: Time elapsed: 417 ms
+[08:37:10] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'FloatingNetherPortal'.
+[08:37:11] [Server thread/INFO]: Preparing start region for dimension minecraft:hoglin
+[08:37:11] [Server thread/INFO]: Preparing spawn area: 0%
+[08:37:12] [Server thread/INFO]: Time elapsed: 429 ms
+[08:37:12] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'Hoglin'.
+[08:37:12] [Server thread/INFO]: Preparing start region for dimension minecraft:quangsworld
+[08:37:12] [Server thread/INFO]: Time elapsed: 61 ms
+[08:37:12] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'QuangsWorld'.
+[08:37:12] [Server thread/INFO]: Preparing start region for dimension minecraft:redstone
+[08:37:12] [Server thread/INFO]: Time elapsed: 57 ms
+[08:37:12] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'redstone'.
+[08:37:12] [Server thread/INFO]: [Multiverse-Core] 7 - World(s) loaded.
+[08:37:12] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[08:37:12] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[08:37:12] [Server thread/INFO]: [MobsToEggs] Enabling MobsToEggs v1.5.5_5
+[08:37:12] [Server thread/INFO]: [MobsToEggs] [STDOUT] Loading MobsToEggs v1.5.5_5!
+[08:37:12] [Server thread/WARN]: Nag author(s): '[Sugarfyi]' of 'MobsToEggs' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[08:37:12] [Server thread/INFO]: [MobsToEggs] [STDOUT] Loading language: EN
+[08:37:12] [Server thread/INFO]: [MobsToEggs] [STDOUT] Loading cost type: none
+[08:37:12] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v4.2.2-b500
+[08:37:12] [Server thread/ERROR]: Error occurred while enabling Multiverse-Inventories v4.2.2-b500 (Is it up to date?)
+java.lang.StackOverflowError: null
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:684) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment.produce(ParserImpl.java:686) ~[snakeyaml-1.30.jar:?]
+[08:37:12] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v4.2.2-b500
+[08:37:12] [Server thread/ERROR]: Error occurred while disabling Multiverse-Inventories v4.2.2-b500 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "com.onarandombox.multiverseinventories.InventoriesDupingPatch.disable()" because "this.dupingPatch" is null
+	at com.onarandombox.multiverseinventories.MultiverseInventories.onDisable(MultiverseInventories.java:115) ~[Multiverse-Inventories-4.2.2.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:399) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:537) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:374) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500) ~[paper-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugin(CraftServer.java:564) ~[paper-1.18.1.jar:git-Paper-155]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugins(CraftServer.java:478) ~[paper-1.18.1.jar:git-Paper-155]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:727) ~[paper-1.18.1.jar:git-Paper-155]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:503) ~[paper-1.18.1.jar:git-Paper-155]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:313) ~[paper-1.18.1.jar:git-Paper-155]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1202) ~[paper-1.18.1.jar:git-Paper-155]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.18.1.jar:git-Paper-155]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[08:37:12] [Server thread/INFO]: [Chunkmaster] Enabling Chunkmaster v1.4.1
+[08:37:12] [Server thread/INFO]: [Chunkmaster] Detected dynmap version 3.3-beta-4-617
+[08:37:12] [Server thread/INFO]: [Chunkmaster] Initializing database...
+[08:37:12] [Server thread/INFO]: [Chunkmaster] Database fully initialized.
+[08:37:12] [Server thread/INFO]: [Chunkmaster] Creating task to load chunk generation Tasks later...
+[08:37:12] [Server thread/INFO]: [Graves] Enabling Graves v4.5
+[08:37:12] [Server thread/INFO]: [Graves] Integration: Hooked into Vault 1.7.3-b131.
+[08:37:12] [Server thread/INFO]: [Graves] Integration: Hooked into WorldEdit 7.2.8+6008-1246d61.
+[08:37:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: graves [4.5]
+[08:37:12] [Server thread/INFO]: [Graves] Integration: Hooked into PlaceholderAPI 2.11.1.
+[08:37:12] [Server thread/INFO]: [Graves] Compatibility: Essentials Detected, make sure you don't have the essentials.keepinv or essentials.keepxp permissions.
+[08:37:12] [Server thread/INFO]: [SuperVanish] Enabling SuperVanish v6.2.6
+[08:37:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: supervanish [6.2.6]
+[08:37:13] [Server thread/INFO]: [SuperVanish] Hooked into PlaceholderAPI
+[08:37:13] [Server thread/INFO]: [SuperVanish] Hooked into dynmap
+[08:37:13] [Server thread/INFO]: [SuperVanish] Hooked into Essentials
+[08:37:13] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.19.2
+[08:37:13] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[08:37:13] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.24.0
+[08:37:13] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[08:37:13] [Server thread/INFO]: Running delayed init tasks
+[08:37:13] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.18 (757)
+[08:37:13] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[08:37:13] [Craft Scheduler Thread - 12 - Essentials/INFO]: [Essentials] Fetching version information...
+[08:37:13] [Craft Scheduler Thread - 20 - Vault/INFO]: [Vault] Checking for Updates ... 
+[08:37:13] [Server thread/INFO]: [Graves] Update: Outdated version detected 4.5, latest version is 4.6, https://www.spigotmc.org/resources/graves.74208/
+[08:37:13] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[08:37:13] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[08:37:13] [Craft Scheduler Thread - 7 - Sudo/INFO]: [Sudo] There is not a new update available.
+[08:37:13] [Craft Scheduler Thread - 9 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[08:37:13] [Craft Scheduler Thread - 9 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[08:37:13] [Craft Scheduler Thread - 9 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[08:37:13] [Craft Scheduler Thread - 9 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
+[08:37:13] [Craft Scheduler Thread - 9 - SkinsRestorer/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[08:37:13] [Craft Scheduler Thread - 9 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[08:37:13] [Craft Scheduler Thread - 9 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[08:37:13] [Craft Scheduler Thread - 9 - SkinsRestorer/INFO]: [SkinsRestorer]     Current version: 14.1.10
+[08:37:13] [Craft Scheduler Thread - 9 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
+[08:37:13] [Craft Scheduler Thread - 9 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[08:37:13] [Server thread/INFO]: Done (32.468s)! For help, type "help"
+[08:37:13] [Server thread/INFO]: Timings Reset
+[08:37:14] [Craft Scheduler Thread - 20 - Vault/INFO]: [Vault] No new version available
+[08:37:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[08:37:14] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[08:37:15] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[08:37:16] [Server thread/WARN]: [ImageOnMap] A new version of ImageOnMap is available! Latest version is 4.2.2, and you're running 4.2.1
+[08:37:16] [Server thread/WARN]: [ImageOnMap] Download the new version here: https://www.spigotmc.org/resources/imageonmap.26585
+[08:37:16] [pool-25-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (1d08598206b1af5dcc29e411cead8e152e4c3f94)
+[08:37:16] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:LimitXD(867659688245461003)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??rules?(907440137078722581)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??hello?(907440139733729370)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??invites?(907440140333490228)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??logs?(907440145207287818)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??discord?(907440148151677038)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??thông-báo?(907440149917478952)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??general?(907440152018821132)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??war?(907440154174713897)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??bad?(907440156548665385)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??picture-video?(907440158171860993)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??suggest?(907440159618899978)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??call-game?(907440160440995891)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:haha-funly(907440161732825120)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:private(907440163548983306)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ans(907440164450750484)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?minecraft?(907440167961382922)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?minecraft-respack?(907440169177718854)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??prefix?(907440170415038464)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??pokemon?(907440172130533437)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??pokemon-trade?(907440174135410708)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??spam?(907440174663893023)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??poke-war?(907440175775371275)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??how-to-use-owo?(907440177021075516)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??owo?(907440178820440064)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??dankmemer?(907440179902554112)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??song-reqs?(907440180699488257)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:verify(907440182108766208)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:altdentifier-logs(907440182930837554)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:LS(867709869477330965)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:verify(905605447657074708)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:hello(905611679595905064)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?information?(905597118796935178)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?minecraft-update?(905597119237349447)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?general?(905606949528272957)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?minecraft-ig-chat?(912950765688066089)
+[08:37:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?whitelist-log?(905597126413779005)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?bot-commands?(905694805168906260)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:whitelist-reqs(905597127210704947)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:altdentifier-logs(905611182092722238)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?song-reqs?(905597138124308510)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:lmao bu?n quá(797686342866829382)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:verify(905602143392784445)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??rules?(841552347586494514)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??hello?(841264938076602428)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??invite?(841264660573061142)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??logs?(856800601991544832)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??discord?(841911733962276924)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??thông-báo?(844571922523095070)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??general?(874564804495409213)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??war?(919843566916861973)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??shitpost?(848873635715219467)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??ai-chat?(913957438758215731)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??call-game?(841989092135927809)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:lmao-bu?n-quá(915814635893051472)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:private(885725624117899284)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ans(897749564675723264)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:altdentifier-logs(905603538590257152)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:cursed(925929273724928000)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:link(930661321014386688)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?minecraft?(894739607055396904)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??prefix?(841965017481609246)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??pokemon?(841988621371572244)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??pokemon-trade?(841988699621031936)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??poke-war?(859339833264177172)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??spam?(913732933561491487)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??how-to-use-owo?(851349504498335784)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??owo?(851346886185975849)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??dankmemer?(900004863075827723)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:??music-reqs?(927903159060410389)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:count(914380084624883712)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:test-bot2(916516107890880513)
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console channel ID was invalid, not forwarding console output
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling Essentials hook
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling SuperVanish hook
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling dynmap hook
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling LuckPerms hook
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] No chat plugin hooks enabled
+[08:37:17] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling PlaceholderAPI hook
+[08:37:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: discordsrv [1.24.0]
+[08:38:04] [User Authenticator #1/INFO]: UUID of player llblyat is 0e108571-d05b-3069-b49c-735b8b51bedb
+[08:38:05] [Server thread/INFO]: llblyat joined the game
+[08:38:05] [Server thread/INFO]: llblyat[/26.108.185.86:53347] logged in with entity id 380 at ([world]-715.8357621680694, 102.0, -415.5052061499101)
+[08:38:05] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 33.119100ms. Summary: Getting group for llblyat
+[08:38:06] [Craft Scheduler Thread - 24 - DiscordSRV/ERROR]: [DiscordSRV] Your AvatarUrl does not contain the {username} placeholder even though this server is using offline UUIDs.
+[08:38:06] [Craft Scheduler Thread - 24 - DiscordSRV/ERROR]: [DiscordSRV] https://cravatar.eu/helmavatar/{username}/{size}.png#{texture} will be used because the default value does not support offline mode servers
+[08:38:06] [Craft Scheduler Thread - 24 - DiscordSRV/ERROR]: [DiscordSRV] You should set your AvatarUrl to https://cravatar.eu/helmavatar/{username}/{size}.png#{texture} (or another url that supports usernames) to get rid of this error
+[08:38:44] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | [Owner]] Limitless > >unban 891227682061316097
+[08:42:22] [Server thread/INFO]: Added duynuke to the whitelist
+[08:43:58] [Server thread/INFO]: Made llblyat a server operator
+[08:44:38] [Server thread/INFO]: llblyat issued server command: /gamemode creative
+[08:45:16] [Server thread/WARN]: llblyat moved too quickly! 7.592995645357632,-3.1909013491950162,6.020314093650597
+[08:45:16] [Server thread/INFO]: llblyat issued server command: //set air
+[08:45:34] [Server thread/INFO]: llblyat issued server command: /gamemode survival
+[08:45:37] [Server thread/INFO]: llblyat lost connection: Disconnected
+[08:45:37] [Server thread/INFO]: llblyat left the game
+[08:45:49] [User Authenticator #2/INFO]: UUID of player llblyat is 0e108571-d05b-3069-b49c-735b8b51bedb
+[08:45:49] [Server thread/INFO]: llblyat joined the game
+[08:45:49] [Server thread/INFO]: llblyat[/26.108.185.86:61257] logged in with entity id 1552 at ([world]-703.3000000119209, 104.0, -417.45663577945066)
+[08:47:32] [Server thread/INFO]: llblyat issued server command: //set air
+[08:58:53] [Server thread/INFO]: llblyat lost connection: Disconnected
+[08:58:53] [Server thread/INFO]: llblyat left the game
+[08:59:11] [User Authenticator #3/INFO]: UUID of player llblyat is 0e108571-d05b-3069-b49c-735b8b51bedb
+[08:59:11] [Server thread/INFO]: llblyat joined the game
+[08:59:11] [Server thread/INFO]: llblyat[/26.108.185.86:57555] logged in with entity id 3710 at ([world]-690.6999999880791, 111.20000004768372, -412.30000001192093)
+[09:01:28] [Server thread/INFO]: llblyat issued server command: /gamemode creative
+[09:01:51] [Server thread/INFO]: llblyat issued server command: //set air

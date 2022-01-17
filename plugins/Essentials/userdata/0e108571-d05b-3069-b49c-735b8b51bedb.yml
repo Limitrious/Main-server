@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 26.108.185.86
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1641871822313
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1642384733480
+  login: 1642384751416
+money: '991000'
+last-account-name: llblyat
+lastlocation:
+  world: bf191a04-6122-454c-a47f-61ad20ee550b
+  world-name: world
+  x: -209.9984181779011
+  y: 189.55863055779045
+  z: -87.80203472143052
+  yaw: 114.599609375
+  pitch: 29.999814987182617
+logoutlocation:
+  world: bf191a04-6122-454c-a47f-61ad20ee550b
+  world-name: world
+  x: -690.6999999880791
+  y: 111.20000004768372
+  z: -412.30000001192093
+  yaw: 60.61700439453125
+  pitch: 25.500003814697266

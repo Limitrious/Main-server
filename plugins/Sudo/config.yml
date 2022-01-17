@@ -1,0 +1,60 @@
+#Send to player without sudo.use.other or sudo.use.yourself permission on type /sudo
+no_permissions: "&cYou do not have permission to do this"
+
+#No permissions message to tab complete
+no_permissions_tab: "No permissions!"
+
+#Send to player on a empty server
+empty_server: "&cServer is empty"
+
+#Send to console if server is empty - No PlaceholderAPI support
+empty_server_console: "&cServer is empty"
+
+#Message to player (sender), if message yourself and if not permission "sudo.use.yourself"
+no_self: "&cFind friends!"
+
+#Message to player (sender), if message others and if not permission "sudo.use.other"
+no_others: "&cYou can't apply sudo to this player!!"
+
+#Message to player (sender), if sudo player has permission "sudo.bypass.player"
+no_access: "&cYou can't apply sudo to this player!"
+
+#Message to console, if sudo player has permission "sudo.bypass.console" - No PlaceholderAPI support
+no_access_console: "&cConsole can't apply sudo to this player!"
+
+#Message to player (sender), if arguments size is one or less
+no_arguments: "&cUsage: /sudo <player> <message/command>"
+
+#Message to sender, if arguments size is one or less - No PlaceholderAPI support
+no_arguments_console: "&cUsage: /sudo <player> <message/command>"
+
+#Message to player (sender), if player not found
+no_player_found: "&cNo player found"
+
+#Message to console, if player not found - No PlaceholderAPI support
+no_player_found_console: "&cNo player found"
+
+#TabComplete if server is empty
+no_players_tab: "No players found"
+
+#TabComplete to a second argument
+tab_message: "enter text here"
+
+#This is for players with permission "sudo.updatecheck", custom placeholders: [oldversion], [newversion], [url]
+update_text:
+  - "&cPlugin Sudo have a new version. Download it here: [url]"
+
+successfully:
+  #Message to player if sudo was used successfully
+  player:
+    #Custom placeholders: [command], [player]
+    command: "&aYou successfully send command [command] as [player]"
+    #Custom placeholders: [text], [player]
+    text: "&aYou successfully send message [text] as [player]"
+
+  #Message to console if sudo was used successfully - No PlaceholderAPI support
+  console:
+    #Custom placeholders: [command], [player]
+    command: "&aConsole successfully send command [command] as [player]"
+    #Custom placeholders: [text], [player]
+    text: "&aConsole successfully send message [text] as [player]"

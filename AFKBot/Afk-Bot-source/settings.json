@@ -1,0 +1,45 @@
+{
+    "bot-account":{ 
+        "username": "AFKtest",
+        "password": "",
+        "type": "mojang"
+    },
+
+    "server":{
+        "ip": "localhost",
+        "port": 25565,
+        "version": "1.17.1"
+    },
+
+    "position":{
+        "enabled": false,
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+
+    "utils":{
+        "auto-auth":{
+            "enabled": false,
+            "password": "12345678"
+        },
+
+        "anti-afk":{
+            "enabled": false,
+            "sneak": false
+        },
+
+        "chat-messages":{
+            "enabled": false,
+            "repeat": true,
+            "repeat-delay": 60,
+
+            "messages": [
+                "lmao"
+            ]
+        },
+
+        "chat-log": true,
+        "auto-reconnect": false
+    }
+}

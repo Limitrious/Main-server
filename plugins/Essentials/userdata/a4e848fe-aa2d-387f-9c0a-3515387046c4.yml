@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1641785825487
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1641800069119
+  login: 1641800016651
+money: '1000'
+last-account-name: DeakyPsycho
+lastlocation:
+  world: bf191a04-6122-454c-a47f-61ad20ee550b
+  world-name: world
+  x: -266.4551893332137
+  y: 180.0
+  z: -118.52657106174662
+  yaw: -76.87652587890625
+  pitch: 8.543505668640137
+logoutlocation:
+  world: bf191a04-6122-454c-a47f-61ad20ee550b
+  world-name: world
+  x: -238.3006932837813
+  y: 190.5
+  z: -121.15160316016528
+  yaw: 16.264719009399414
+  pitch: 29.944623947143555

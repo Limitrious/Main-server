@@ -1,0 +1,32 @@
+# Version of the configuration file
+# Generated for BetterMobs version 1.5.2
+version: 1
+
+# This could be set higher for fewer updates / second.
+# The update interval are used for changing entities and casting their abilities.
+updateInterval: 20 # (Ticks)
+
+# You can uncomment the materials if they're available.
+meleeWeapons:
+  - minecraft:wooden_sword
+  - minecraft:stone_sword
+  - minecraft:iron_sword
+  - minecraft:golden_sword
+  - minecraft:diamond_sword
+  - minecraft:netherite_sword
+  - minecraft:wooden_axe
+  - minecraft:stone_axe
+  - minecraft:iron_axe
+  - minecraft:golden_axe
+  - minecraft:diamond_axe
+  - minecraft:netherite_axe
+
+rangedWeapons:
+  - minecraft:bow
+  - minecraft:crossbow
+
+# Check if there are updates available.
+checkUpdates: true
+
+# Enabling this will induce a lot of spam in the console.
+debug: false

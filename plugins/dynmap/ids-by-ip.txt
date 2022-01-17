@@ -1,0 +1,30 @@
+%YAML 1.1
+---
+'26_82_253_77':
+- duynuke
+'26_45_216_197':
+- Noway4u_
+'26_183_78_18':
+- VanhNG
+'192_168_7_109':
+- duynuke
+- khanhshoang11
+- VanhNG
+- KIRITO
+'26_108_185_86':
+- llblyat
+'26_89_249_31':
+- LimitXD69
+- LeQuangAnh014
+'127_0_0_1':
+- n0torious
+- DeakyPsycho
+- .A.f.k.B.ot5NG
+- .AfkBot1XD
+- .A.f.kBot3XD
+- .A.f.k.Bot4DA
+- .A.fkBot2XD
+- LimitXD69
+- SHGD_AfkBot2
+- 20SD_AFKbot_1
+- TestBot1

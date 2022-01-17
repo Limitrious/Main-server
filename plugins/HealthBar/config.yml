@@ -1,0 +1,11 @@
+players: true
+displayName: '&c<3'
+require-permission: false
+mobs: false
+mobs-style: 1
+mobs-style-display: '%health% / %maxHealth% &c<3'
+mobs-fade-out: 13
+disabled-worlds:
+- world_example
+disabled-mobs:
+- MOB_EXAMPLE

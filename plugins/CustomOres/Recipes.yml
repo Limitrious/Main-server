@@ -1,0 +1,16 @@
+# Use this tutorial: https://custom-ores.fandom.com/wiki/Creating_a_Recipe
+
+Example Recipe:
+  Enabled: false
+  Result: Example Stick
+  Amount: 1
+  TopLeft: air
+  TopCenter: Example Ore
+  TopRight: Air
+  MiddleLeft: Example Ore
+  MiddleCenter: stick
+  MiddleRight: Example Ore
+  BottomLeft: AIR
+  BottomCenter: Example Ore
+  BottomRight: aIR
+

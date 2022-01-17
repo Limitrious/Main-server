@@ -1,0 +1,10 @@
+MustBeOwnerToConvert: false
+MustBeOwnerToCure: false
+MustBeNight: false
+XPCostInLevels: 0
+SkeletonHorsesReturnDamage: false
+ZombieHorsesReturnDamage: false
+SkeletonHorseEffects:
+- SPEED, 1
+ZombieHorseEffects:
+- SPEED, 1

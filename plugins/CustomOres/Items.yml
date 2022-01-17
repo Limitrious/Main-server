@@ -1,0 +1,26 @@
+# Use https://custom-ores.fandom.com/wiki/Creating_an_Item and https://custom-ores.fandom.com/wiki/Creating_an_Ore Use § for color codes (e. g. §3) !!USING & WILL CAUSE PROBLEMS!!
+
+Example Ore:
+  Enabled: false
+  Lore: §7Used as an example. An actual item would be enabled
+  Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmNjMTEzZGNjZTE1ZmE0NTRjODQ1ZTk5MDk2MmY1ZjE2YTJhOTZmOTk2NTkwYzE2ZTVlMjQ0M2U0ZjgwMTVjNCJ9fX0=
+  NumberPerChunk: 5
+  MaxY: 50
+  MinY: 0
+  Overworld: true
+  Nether: true
+  End: true
+  Smelt Amount: 1
+  Smelt Item: blaze rod
+  Drop Not Smelt: false
+Example Stick:
+  Enabled: false
+  Type: stick
+  Lore: §aUsed as an example. An actual item would be enabled
+  Enchantments:
+    Types:
+    - fire aspect
+    - sharpness
+    Levels:
+    - 10
+    - 5

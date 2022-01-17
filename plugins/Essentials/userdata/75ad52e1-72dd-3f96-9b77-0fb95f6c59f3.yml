@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 26.183.78.18
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1641872503605
+  login: 1641870369113
+money: '51225'
+last-account-name: VanhNG
+logoutlocation:
+  world: bf191a04-6122-454c-a47f-61ad20ee550b
+  world-name: world
+  x: -283.972160507973
+  y: 153.0
+  z: -136.76249998807907
+  yaw: 66.613037109375
+  pitch: 26.248472213745117
+lastlocation:
+  world: bf191a04-6122-454c-a47f-61ad20ee550b
+  world-name: world
+  x: 1466.9075427199884
+  y: 63.0
+  z: -177.748253834998
+  yaw: 61.7730712890625
+  pitch: 8.250105857849121

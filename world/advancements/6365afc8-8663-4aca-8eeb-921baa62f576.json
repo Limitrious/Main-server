@@ -1,0 +1,13 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_slopes": "2021-12-06 12:57:09 +0700",
+      "minecraft:stony_shore": "2021-12-06 12:56:39 +0700",
+      "minecraft:grove": "2021-12-06 12:57:18 +0700",
+      "minecraft:frozen_peaks": "2021-12-06 12:58:29 +0700",
+      "minecraft:plains": "2021-12-06 12:56:52 +0700"
+    },
+    "done": false
+  },
+  "DataVersion": 2860
+}
