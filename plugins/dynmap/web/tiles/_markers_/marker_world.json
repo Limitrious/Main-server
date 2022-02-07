@@ -1,13 +1,19 @@
-{"sets": {"chunkmaster": {"hide": false,"circles": {}
+{"sets": {"waypoints_public": {"hide": false,"circles": {}
+,"areas": {}
+,"label": "Public waypoints","markers": {"b56cd3cc-cc46-4a1e-a58b-ac2caa84b38e": {"markup": false,"x": 103.21,"icon": "default","y": 70.00,"dim": "16x16","z": 27.45,"label": "MainVillage"}
+}
+,"lines": {}
+,"layerprio": 0}
+,"chunkmaster": {"hide": false,"circles": {}
 ,"areas": {}
 ,"label": "Chunkmaster","markers": {}
 ,"lines": {}
 ,"layerprio": 0}
 ,"markers": {"hide": false,"circles": {}
 ,"areas": {}
-,"label": "Markers","markers": {"_spawn_world": {"markup": false,"x": -30.00,"icon": "world","y": 93.00,"dim": "16x16","z": 3.00,"label": "Spawn"}
+,"label": "Markers","markers": {"_spawn_world": {"markup": false,"x": 33.00,"icon": "world","y": 97.00,"dim": "16x16","z": 63.00,"label": "Spawn"}
 }
 ,"lines": {}
 ,"layerprio": 0}
 }
-,"timestamp": 1642383435372}
+,"timestamp": 1644226600120}

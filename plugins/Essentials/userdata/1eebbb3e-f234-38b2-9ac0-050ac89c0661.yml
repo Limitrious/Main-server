@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 192.168.7.109
+ip-address: 26.82.253.77
 afk: false
 socialspy: false
 npc: false
@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1641808379144
-  login: 1641808054946
+  logout: 1642556497465
+  login: 1642556452464
 money: '5880.0'
 last-account-name: duynuke
 logoutlocation:
   world: bf191a04-6122-454c-a47f-61ad20ee550b
   world-name: world
-  x: -222.677983509685
-  y: 121.0
-  z: -192.87642136296034
-  yaw: -83.55072021484375
-  pitch: 46.049991607666016
+  x: -231.01413305881547
+  y: 121.48249998688698
+  z: -192.03309673893406
+  yaw: 100.80633544921875
+  pitch: 23.849868774414062
 lastlocation:
   world: bf191a04-6122-454c-a47f-61ad20ee550b
   world-name: world

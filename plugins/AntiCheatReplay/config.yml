@@ -1,0 +1,23 @@
+General:
+  Check-Update: true
+  Nearby-Range: 30
+  Recording-Length: 2
+  Overwrite: false
+Discord:
+  Enabled: true
+  Webhook: Enter webhook here
+  Avatar: https://discord.com/api/webhooks/938674341044977715/MJFuWRVZzZmPxJKDOnOO-7pLFtme-ahaieTxAUqYFEjKWSwsRHCjTMxOCc2wIF7V3jUr
+  Username: AntiCheatReplay
+  Server-Name: Notorious
+Vulcan:
+  Disabled-Recordings:
+  - timer
+  - strafe
+Themis:
+  Disabled-Actions:
+  - notify
+Intave:
+  Punish-Commands:
+  - intave
+  - ban
+  - kick

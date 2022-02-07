@@ -1,19 +1,13 @@
 [
   {
-    "uuid": "0e108571-d05b-3069-b49c-735b8b51bedb",
-    "name": "llblyat",
+    "uuid": "5583dad8-0e30-3f2b-a6c1-8dbad0f937c5",
+    "name": "N0tor1ousss",
     "level": 4,
     "bypassesPlayerLimit": false
   },
   {
     "uuid": "6afe20ac-f50b-3596-bfb9-8e38f2534d89",
     "name": "LeQuangAnh14",
-    "level": 4,
-    "bypassesPlayerLimit": false
-  },
-  {
-    "uuid": "a4e848fe-aa2d-387f-9c0a-3515387046c4",
-    "name": "DeakyPsycho",
     "level": 4,
     "bypassesPlayerLimit": false
   }

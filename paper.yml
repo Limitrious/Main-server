@@ -216,7 +216,7 @@ world-settings:
     grass-spread-tick-rate: 1
     keep-spawn-loaded: true
     anti-xray:
-      enabled: true
+      enabled: false
       engine-mode: 2
       chunk-edge-mode: 2
       max-chunk-section-index: 3

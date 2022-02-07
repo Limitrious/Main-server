@@ -1,6 +1,6 @@
 BetterMobs v1.5.2
-Chunkmaster v1.4.1
 CleanMOTD v0.2.7
+CustomOres v2.0
 DiscordSRV v1.24.0
 dynmap v3.3-beta-4-617
 EnhancedEnchants v1.4
@@ -12,7 +12,7 @@ GFly v[2.3.0.0]
 Graves v4.5
 GSit v1.0.5
 HealthBar v1.7
-ImageOnMap v4.2.1
+ImageOnMap v4.2.2
 ItemStackReloaded v1.0
 Lasso v1.5
 LuckPerms v5.3.86
@@ -38,6 +38,7 @@ UAntiClean v1.1.0-SNAPSHOT
 UberEnchant v8.9.4
 UnCrafter v1.8.5b
 UndeadHorses v5.0
+VanillaBosses v1.5.1
 Vault v1.7.3-b131
 ViaBackwards v4.1.1
 ViaRewind v2.0.1

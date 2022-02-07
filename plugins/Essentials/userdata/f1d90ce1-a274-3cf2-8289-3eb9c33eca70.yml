@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 26.89.249.31
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1643867963290
+  login: 1643867949624
+money: '50'
+last-account-name: QuangAnh014
+logoutlocation:
+  world: 7dce03ff-34c8-49b2-8759-558cb19d770c
+  world-name: QuangsWorld
+  x: 82.12590749030848
+  y: 75.00447264246831
+  z: 193.0436447918788
+  yaw: -130.91371154785156
+  pitch: 15.89989948272705

@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.7.109
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1644228505768
+  login: 1644228037656
+money: '50'
+last-account-name: Helplessness
+logoutlocation:
+  world: e4446a34-dbe5-4a31-9f8c-c80ee81ce012
+  world-name: world
+  x: 107.41424072247736
+  y: 64.0
+  z: -7.72644181203728
+  yaw: -175.499755859375
+  pitch: 25.34996795654297
