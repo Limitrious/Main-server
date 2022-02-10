@@ -1,19 +1,13 @@
 {
-  "minecraft:recipes/decorations/gray_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2022-02-07 17:01:27 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/light_blue_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-02-07 17:01:27 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/lime_bed_from_white_bed": {
+  "minecraft:recipes/redstone/oak_fence_gate": {
     "criteria": {
-      "has_bed": "2022-02-07 17:01:27 +0700"
+      "has_planks": "2022-02-10 08:56:33 +0700"
     },
     "done": true
   },
@@ -24,15 +18,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/dark_oak_boat": {
+  "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
-      "in_water": "2022-02-07 17:07:43 +0700"
+      "has_stick": "2022-02-10 08:47:54 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/food/baked_potato_from_smoking": {
+  "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
-      "has_potato": "2022-02-07 17:05:15 +0700"
+      "has_leather": "2022-02-10 08:52:39 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:skeleton": "2022-02-10 09:00:49 +0700"
     },
     "done": true
   },
@@ -42,9 +42,9 @@
     },
     "done": true
   },
-  "vanillatweaks:larger_phantoms": {
+  "minecraft:recipes/redstone/oak_button": {
     "criteria": {
-      "tick": "2022-02-07 17:00:37 +0700"
+      "has_planks": "2022-02-10 08:56:33 +0700"
     },
     "done": true
   },
@@ -67,6 +67,267 @@
       "has_bed": "2022-02-07 17:01:27 +0700"
     },
     "done": true
+  },
+  "equestrian_crafting:recipes/combat/iron_horse_armor": {
+    "criteria": {
+      "has_ingot": "2022-02-07 17:00:37 +0700",
+      "has_saddle": "2022-02-07 17:00:37 +0700",
+      "has_the_recipe": "2022-02-07 17:00:37 +0700"
+    },
+    "done": true
+  },
+  "vanillatweaks:count_mob_deaths": {
+    "criteria": {
+      "tick": "2022-02-07 17:00:37 +0700"
+    },
+    "done": true
+  },
+  "craftable_name_tags:recipes/building_blocks/craftable_name_tags/name_tag": {
+    "criteria": {
+      "has_string": "2022-02-07 17:00:37 +0700",
+      "has_paper": "2022-02-07 17:00:37 +0700",
+      "has_iron": "2022-02-07 17:00:37 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2022-02-10 08:52:39 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2022-02-10 08:52:39 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:sunflower_plains": "2022-02-10 08:52:33 +0700",
+      "minecraft:river": "2022-02-07 17:02:08 +0700",
+      "minecraft:plains": "2022-02-07 17:00:37 +0700"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/purple_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-02-07 17:01:27 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2022-02-07 17:02:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2022-02-10 08:47:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2022-02-10 08:49:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "has_planks": "2022-02-10 08:56:33 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2022-02-10 08:55:04 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2022-02-10 08:47:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2022-02-07 17:05:28 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2022-02-10 08:47:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2022-02-10 08:50:07 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2022-02-07 17:07:43 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2022-02-10 08:56:33 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-02-07 17:01:27 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2022-02-10 08:56:33 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2022-02-10 08:56:33 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2022-02-10 08:47:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2022-02-07 17:07:43 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2022-02-10 08:56:33 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2022-02-10 08:58:53 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-02-07 17:01:27 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2022-02-10 08:56:33 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2022-02-10 08:52:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2022-02-10 08:52:39 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2022-02-07 17:07:43 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2022-02-07 17:07:43 +0700"
+    },
+    "done": true
+  },
+  "equestrian_crafting:recipes/misc/golden_horse_armor": {
+    "criteria": {
+      "has_ingot": "2022-02-07 17:00:37 +0700",
+      "has_saddle": "2022-02-07 17:00:37 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-02-07 17:01:27 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2022-02-10 08:47:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2022-02-10 08:52:39 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-02-07 17:01:27 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2022-02-10 08:49:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2022-02-07 17:07:43 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2022-02-10 08:48:13 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2022-02-07 17:05:15 +0700"
+    },
+    "done": true
+  },
+  "vanillatweaks:larger_phantoms": {
+    "criteria": {
+      "tick": "2022-02-07 17:00:37 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2022-02-10 09:00:49 +0700",
+      "minecraft:spider": "2022-02-10 09:02:36 +0700",
+      "minecraft:zombie": "2022-02-10 09:27:30 +0700"
+    },
+    "done": false
   },
   "vanillatweaks:double_shulker_shells": {
     "criteria": {
@@ -100,23 +361,19 @@
     },
     "done": true
   },
-  "equestrian_crafting:recipes/combat/iron_horse_armor": {
-    "criteria": {
-      "has_ingot": "2022-02-07 17:00:37 +0700",
-      "has_saddle": "2022-02-07 17:00:37 +0700",
-      "has_the_recipe": "2022-02-07 17:00:37 +0700"
-    },
-    "done": true
-  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "potato": "2022-02-07 17:05:28 +0700"
+      "beef": "2022-02-10 08:52:44 +0700",
+      "tropical_fish": "2022-02-10 09:00:25 +0700",
+      "potato": "2022-02-07 17:05:28 +0700",
+      "bread": "2022-02-10 08:56:18 +0700",
+      "carrot": "2022-02-10 08:48:18 +0700"
     },
     "done": false
   },
-  "vanillatweaks:count_mob_deaths": {
+  "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
-      "tick": "2022-02-07 17:00:37 +0700"
+      "has_stick": "2022-02-10 08:47:54 +0700"
     },
     "done": true
   },
@@ -126,11 +383,9 @@
     },
     "done": true
   },
-  "craftable_name_tags:recipes/building_blocks/craftable_name_tags/name_tag": {
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
     "criteria": {
-      "has_string": "2022-02-07 17:00:37 +0700",
-      "has_paper": "2022-02-07 17:00:37 +0700",
-      "has_iron": "2022-02-07 17:00:37 +0700"
+      "has_beef": "2022-02-10 08:52:39 +0700"
     },
     "done": true
   },
@@ -140,22 +395,15 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "minecraft:recipes/redstone/oak_pressure_plate": {
     "criteria": {
-      "minecraft:river": "2022-02-07 17:02:08 +0700",
-      "minecraft:plains": "2022-02-07 17:00:37 +0700"
-    },
-    "done": false
-  },
-  "minecraft:recipes/decorations/purple_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2022-02-07 17:01:27 +0700"
+      "has_planks": "2022-02-10 08:56:33 +0700"
     },
     "done": true
   },
-  "minecraft:adventure/sleep_in_bed": {
+  "minecraft:recipes/misc/bone_meal": {
     "criteria": {
-      "slept_in_bed": "2022-02-07 17:02:32 +0700"
+      "has_bone": "2022-02-10 09:00:52 +0700"
     },
     "done": true
   },
@@ -171,21 +419,9 @@
     },
     "done": true
   },
-  "minecraft:husbandry/root": {
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
     "criteria": {
-      "consumed_item": "2022-02-07 17:05:28 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/birch_boat": {
-    "criteria": {
-      "in_water": "2022-02-07 17:07:43 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2022-02-07 17:01:27 +0700"
+      "has_beef": "2022-02-10 08:52:39 +0700"
     },
     "done": true
   },
@@ -195,15 +431,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2022-02-10 08:49:38 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/red_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-02-07 17:01:27 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/acacia_boat": {
+  "minecraft:recipes/decorations/oak_fence": {
     "criteria": {
-      "in_water": "2022-02-07 17:07:43 +0700"
+      "has_planks": "2022-02-10 08:56:33 +0700"
     },
     "done": true
   },
@@ -213,9 +455,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/cyan_bed_from_white_bed": {
+  "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
-      "has_bed": "2022-02-07 17:01:27 +0700"
+      "has_stick": "2022-02-10 08:47:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_stick": "2022-02-10 08:47:54 +0700"
     },
     "done": true
   },
@@ -225,9 +473,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_planks": "2022-02-10 08:56:33 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
     "criteria": {
       "has_potato": "2022-02-07 17:05:15 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2022-02-10 08:56:33 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2022-02-10 08:56:33 +0700"
     },
     "done": true
   },
@@ -239,28 +505,10 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/jungle_boat": {
-    "criteria": {
-      "in_water": "2022-02-07 17:07:43 +0700"
-    },
-    "done": true
-  },
   "equestrian_crafting:recipes/combat/diamond_horse_armor": {
     "criteria": {
       "has_ingot": "2022-02-07 17:00:37 +0700",
       "has_saddle": "2022-02-07 17:00:37 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_deepslate": {
-    "criteria": {
-      "has_cobbled_deepslate_slab": "2022-02-07 17:08:03 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/spruce_boat": {
-    "criteria": {
-      "in_water": "2022-02-07 17:07:43 +0700"
     },
     "done": true
   },
@@ -270,10 +518,33 @@
     },
     "done": true
   },
-  "equestrian_crafting:recipes/misc/golden_horse_armor": {
+  "minecraft:recipes/building_blocks/chiseled_deepslate": {
     "criteria": {
-      "has_ingot": "2022-02-07 17:00:37 +0700",
-      "has_saddle": "2022-02-07 17:00:37 +0700"
+      "has_cobbled_deepslate_slab": "2022-02-07 17:08:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2022-02-10 08:55:04 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2022-02-10 08:52:39 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2022-02-10 08:58:53 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2022-02-10 08:52:39 +0700"
     },
     "done": true
   },
