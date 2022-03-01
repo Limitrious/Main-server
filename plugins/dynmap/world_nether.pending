@@ -1,0 +1,106 @@
+%YAML 1.1
+---
+tiles:
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 10,43,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 10,44,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 10,45,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 10,46,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 10,47,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 10,48,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 10,49,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 10,50,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 10,51,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 10,52,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 10,53,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 10,54,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 10,55,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 10,56,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 10,57,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 10,58,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 10,59,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 10,60,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 10,61,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 10,62,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 10,63,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 11,0,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 11,1,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 11,2,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 11,3,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 11,4,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 11,5,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 11,6,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 11,7,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 11,8,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 11,9,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 11,10,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 11,13,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 11,14,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 11,15,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 11,16,iso_SE_30_hires,0,0
+invalid:
+    flat: [
+        ]
+    nt:
+    - ffffffff/0:0/1ff8000:0/1ffc000:0/1fff000:0/ffffc00:0/1fffff00:0/ffffff80:1/ffffff80:7/ffffff80:1f/ffffff80:1f/ffffff80:3f/ffffff80:3f/ffffff80:3f/ffffff80:3f/ffffff80:3f/ffffff80:3f/ffffff80:3f/ffffff80:7f/ffffff80:7f/ffffff80:7f/ffffff80:7f/ffffff80:7f/ffffff80:7f/ffffff80:7f/ffffff80:7f/ffffff80:7f/ffffff80:7f/ffffff80:7f/ffffff80:7f/ffffff80:7f/ffffff80:7f/ffffff80:7f/ffffff80:7f/ffffff80:7f/ffffff80:7f/ffffff80:7f/ffffff80:7f/ffffff00:3f/fffffc00:3f/fffff000:3f/ffffc000:7f/fffe0000:1ff/fffc0000:1ff/fff80000:1ff/ffc00000:1ff/ff000000:1ff/f8000000:1ff/f0000000:1ff/e0000000:1ff/0:3fc/0:3f0/0:3c0/0:200/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    - 0/0:0/7fff000:0/7fff000:0/7fff000:0/7fff000:0/7fff000:0/7fff000:7/c7fff000:f/e7fff000:7f/fffff000:ff/fffff000:7ff/fffff000:fff/ffffe000:7fff/ffff8000:1ffff/ffff0000:3ffff/ffff9000:1fffff/fffff000:3fffff/fffff000:ffffff/fffff800:ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:1ffffff/fffff800:ffffff/fffff800:3fffff/fffff800:fffff/fffff800:3ffff/fffff800:1ffff/fffff800:3fff/fffff800:fff/fffff800:3ff/fffff800:ff/fffff800:7f/fffff800:f/fffff800:7/fffff800:0/fffff800:0/3ffff800
+    - ffffffff/ffffffff:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:100000/0:100000/0:400000/0:460000/0:6c8000/0:400000/3c000:0/7c000:680000/3fc000:6370400/ffc000:941080/3ffc000:2f93200/fffc000:1ff7400/1fffc000:173c00/ffffc000:6af7c01/ffffc000:26020f/ffffc000:48d00f/ffffc000:c8100f/ffffc000:9107f/ffffc000:300001ff/ffffc000:200007ff/ffffc000:1fff/ffffc000
+    - 0/1:0/7fff000:0/3ff0000:0/1fc0000:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+invZoomOut:
+    nt:
+    - [
+        ]
+    - [
+        ]
+    - [
+        ]
+    - [
+        ]
+    - [
+        ]
+    - [
+        ]
+    - [
+        ]
+    -   - 0/0:0/0:0/0:0/0:0/0:0/400:0/0:0/400:0/400:0/400:0/400:0/0:0/400:0/0:0/0:0/400:0/0:0/400:0/0:0/400:0/0:0/400:0/400:0/400:0/400:0/400:0/400:0/400:0/400:0/400:0/400:0/400:0/400:0/400:0/400:0/400:0/400:0/400:0/400:0/400:0/400:0/400:0/400:0/400:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    -   - 0/0:0/20:0/20:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/10:0/10:0/10:0/10:0/10:0/10:0/10:0/10:0/10:0/10:0/10:0/10:0/10:0/10:0/10:0/10:0/10:0/10:0/10:0/10:0/10:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    -   - 0/0:0/4:0/4:0/4:0/0:0/4:0/0:0/0:0/0:0/0:0/4:0/4:0/4:0/4:0/4:0/4:0/4:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    -   - 0/0:0/2:0/2:0/2:0/2:0/2:0/2:0/1:0/1:0/1:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    -   - 0/0:0/0:0/0:0/1:0/1:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    -   - 0/0:0/1:0/1:0/1:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    -   - 0/0:0/1:0/1:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0

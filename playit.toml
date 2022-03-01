@@ -1,0 +1,16 @@
+last_update = 1646048027086
+refresh_from_api = true
+secret_key = 'f2cd12d346d1173f417b250d26cce7865ff23cea7be1d138b6a78795dc61fe02'
+
+[[mappings]]
+proto = 'both'
+tunnel_ip = '147.185.221.212'
+tunnel_from_port = 14483
+local_port = 25568
+
+[[mappings]]
+name = 'Limitrious'
+proto = 'tcp'
+tunnel_ip = '147.185.221.212'
+tunnel_from_port = 14482
+local_port = 25565

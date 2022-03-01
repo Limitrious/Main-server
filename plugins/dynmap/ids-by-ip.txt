@@ -2,6 +2,8 @@
 ---
 '26_82_253_77':
 - duynuke
+'127_33_57_219':
+- Limitrious
 '26_45_216_197':
 - Noway4u_
 '26_183_78_18':
@@ -13,15 +15,19 @@
 - khanhshoang11
 - VanhNG
 - KIRITO
+'127_117_180_195':
+- Limitrious
 '26_108_185_86':
 - llblyat
+'127_96_114_106':
+- Limitrious
 '26_89_249_31':
 - QuangAnh014
 - LimitXD69
 - LeQuangAnh014
 '127_0_0_1':
-- N0tor1ousss
 - Limitrious
+- N0tor1ousss
 - n0torious
 - DeakyPsycho
 - .A.f.k.B.ot5NG
@@ -33,3 +39,5 @@
 - SHGD_AfkBot2
 - 20SD_AFKbot_1
 - TestBot1
+'127_177_138_242':
+- llblyat

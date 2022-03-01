@@ -1,20 +1,13 @@
-{"sets": {"waypoints_public": {"hide": false,"circles": {}
-,"areas": {}
-,"label": "Public waypoints","markers": {"30ac15a0-0f18-411b-962f-c2cb8a8536a7": {"markup": false,"x": 13.05,"icon": "default","y": 95.00,"dim": "16x16","z": -13.73,"label": "Netherportal 1"}
-,"149fdda2-6475-49c9-8d03-e9b3805eee0c": {"markup": false,"x": -21.36,"icon": "default","y": 67.00,"dim": "16x16","z": 125.75,"label": "Bastion"}
-}
-,"lines": {}
-,"layerprio": 0}
-,"chunkmaster": {"hide": false,"circles": {}
+{"sets": {"chunkmaster": {"hide": false,"circles": {}
 ,"areas": {}
 ,"label": "Chunkmaster","markers": {}
 ,"lines": {}
 ,"layerprio": 0}
 ,"markers": {"hide": false,"circles": {}
 ,"areas": {}
-,"label": "Markers","markers": {"_spawn_world_nether": {"markup": false,"x": -192.00,"icon": "world","y": 66.00,"dim": "16x16","z": 256.00,"label": "Spawn"}
+,"label": "Markers","markers": {"_spawn_world_nether": {"markup": false,"x": 64.00,"icon": "world","y": 66.00,"dim": "16x16","z": -96.00,"label": "Spawn"}
 }
 ,"lines": {}
 ,"layerprio": 0}
 }
-,"timestamp": 1644457116998}
+,"timestamp": 1646049399843}

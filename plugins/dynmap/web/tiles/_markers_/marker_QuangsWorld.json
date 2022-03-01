@@ -1,9 +1,4 @@
-{"sets": {"waypoints_public": {"hide": false,"circles": {}
-,"areas": {}
-,"label": "Public waypoints","markers": {}
-,"lines": {}
-,"layerprio": 0}
-,"chunkmaster": {"hide": false,"circles": {}
+{"sets": {"chunkmaster": {"hide": false,"circles": {}
 ,"areas": {}
 ,"label": "Chunkmaster","markers": {}
 ,"lines": {}
@@ -15,4 +10,4 @@
 ,"lines": {}
 ,"layerprio": 0}
 }
-,"timestamp": 1644457116998}
+,"timestamp": 1646049399843}
